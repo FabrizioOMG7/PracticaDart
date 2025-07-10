@@ -19,4 +19,24 @@
     "editor.suggestOnTriggerCharacters": false
   }
 */
+
+"editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.inlineSuggest.enabled": false, // Esto desactiva las sugerencias tipo Copilot
+  "editor.parameterHints.enabled": true,
+  "editor.snippetSuggestions": "none",
+
+  "[dart]": {
+    "editor.snippetSuggestions": "none",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": true
+  }
 }
