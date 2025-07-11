@@ -38,5 +38,9 @@
       "strings": false
     },
     "editor.suggestOnTriggerCharacters": true
+  },
+
+  "editor.tokenColorCustomizations": {
+    "comments": "#6A9955"
   }
 }
